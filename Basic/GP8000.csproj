@@ -1,0 +1,2072 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{836A53B7-4B8A-4673-9A66-28807C03B5CC}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "..\APPLC004.ICO"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "GP8000"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "GP8000"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Design.dll"
+                />
+                <Reference
+                    Name = "office menu control"
+                    AssemblyName = "Office Menu Control"
+                    HintPath = "bin\debug\office menu control.dll"
+                />
+                <Reference
+                    Name = "C1.Win.C1FlexGrid"
+                    AssemblyName = "C1.Win.C1FlexGrid"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1FlexGrid.dll"
+                    AssemblyFolderKey = "hklm\dn\c1studio"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Common"
+                    AssemblyName = "C1.Common"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Common.dll"
+                    AssemblyFolderKey = "hklm\dn\c1studio"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Data"
+                    AssemblyName = "C1.Data"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Data.dll"
+                    AssemblyFolderKey = "hklm\dn\c1studio"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Runtime.Remoting"
+                    AssemblyName = "System.Runtime.Remoting"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Runtime.Remoting.dll"
+                />
+                <Reference
+                    Name = "C1.Win.C1Input"
+                    AssemblyName = "C1.Win.C1Input"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1Input.dll"
+                    AssemblyFolderKey = "hklm\dn\c1studio"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Win.C1List"
+                    AssemblyName = "C1.Win.C1List"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1List.dll"
+                    AssemblyFolderKey = "hklm\dn\c1studio"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Win.C1Command"
+                    AssemblyName = "C1.Win.C1Command"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1Command.dll"
+                    AssemblyFolderKey = "hklm\dn\c1studio"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Win.C1Report"
+                    AssemblyName = "C1.Win.C1Report"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1Report.dll"
+                    AssemblyFolderKey = "hklm\dn\c1studio"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "stdole"
+                    Guid = "{00020430-0000-0000-C000-000000000046}"
+                    VersionMajor = "2"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+                <Reference
+                    Name = "C1.C1Excel"
+                    AssemblyName = "C1.C1Excel"
+                    HintPath = "OCX\C1.C1Excel.dll"
+                />
+                <Reference
+                    Name = "encry"
+                    AssemblyName = "encry"
+                    HintPath = "OCX\encry.dll"
+                />
+                <Reference
+                    Name = "C1.Win.C1PrintPreview"
+                    AssemblyName = "C1.Win.C1PrintPreview"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1PrintPreview.dll"
+                    AssemblyFolderKey = "hklm\dn\c1studio"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.C1PrintDocument"
+                    AssemblyName = "C1.C1PrintDocument"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.C1PrintDocument.dll"
+                    AssemblyFolderKey = "hklm\dn\c1studio"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "MSCommLib"
+                    Guid = "{648A5603-2C6E-101B-82B6-000000000014}"
+                    VersionMajor = "1"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxMSCommLib"
+                    Guid = "{648A5603-2C6E-101B-82B6-000000000014}"
+                    VersionMajor = "1"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+                <Reference
+                    Name = "HDD"
+                    Guid = "{E0263D6D-8A82-4573-81BB-EA0B0C707282}"
+                    VersionMajor = "5"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxHDD"
+                    Guid = "{E0263D6D-8A82-4573-81BB-EA0B0C707282}"
+                    VersionMajor = "5"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+                <Reference
+                    Name = "PrintReportExcel"
+                    Guid = "{79BE6D73-EDAB-4255-9FA0-71E8A972D91D}"
+                    VersionMajor = "8"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "C1.C1Pdf"
+                    AssemblyName = "C1.C1Pdf"
+                    HintPath = "bin\debug\C1.C1Pdf.dll"
+                />
+                <Reference
+                    Name = "GPRPT"
+                    Guid = "{5E64A863-3DE0-465E-BF6E-AEA67FAC6BDF}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxGPRPT"
+                    Guid = "{5E64A863-3DE0-465E-BF6E-AEA67FAC6BDF}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic"
+                    AssemblyName = "Microsoft.VisualBasic"
+                    HintPath = "bin\Debug\Microsoft.VisualBasic.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Office.Interop.Word"
+                    AssemblyName = "Microsoft.Office.Interop.Word"
+                    HintPath = "bin\Debug\Microsoft.Office.Interop.Word.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Vbe.Interop"
+                    AssemblyName = "Microsoft.Vbe.Interop"
+                    HintPath = "bin\Debug\Microsoft.Vbe.Interop.dll"
+                />
+                <Reference
+                    Name = "adodb"
+                    AssemblyName = "ADODB"
+                    HintPath = "bin\Debug\adodb.dll"
+                />
+                <Reference
+                    Name = "EASendMail"
+                    AssemblyName = "EASendMail"
+                    HintPath = "bin\Debug\EASendMail.dll"
+                />
+                <Reference
+                    Name = "Navigator1.0"
+                    AssemblyName = "Navigator1.0"
+                    HintPath = "bin\Debug\Navigator1.0.dll"
+                />
+                <Reference
+                    Name = "AxInterop.DT"
+                    AssemblyName = "AxInterop.DT"
+                    HintPath = "bin\Debug\AxInterop.DT.dll"
+                />
+                <Reference
+                    Name = "Interop.DT"
+                    AssemblyName = "Interop.DT"
+                    HintPath = "bin\Debug\Interop.DT.dll"
+                />
+                <Reference
+                    Name = "Office"
+                    AssemblyName = "Office"
+                    HintPath = "bin\Debug\Office.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Office.Core"
+                    Guid = "{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}"
+                    VersionMajor = "2"
+                    VersionMinor = "5"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "Interop.Microsoft.Office.Interop.Excel"
+                    AssemblyName = "Interop.Microsoft.Office.Interop.Excel"
+                    HintPath = "bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "licenses.licx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaAbsentVacate.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaAbsentVacate.resx"
+                    DependentUpon = "frmTaAbsentVacate.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaAddCol.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaAddCol.resx"
+                    DependentUpon = "frmTaAddCol.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaAnnualLeave.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaAnnualLeave.resx"
+                    DependentUpon = "frmTaAnnualLeave.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaAnnualLeaveMonth.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaAnnualLeaveMonth.resx"
+                    DependentUpon = "frmTaAnnualLeaveMonth.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaAttendanceFormula.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaAttendanceFormula.resx"
+                    DependentUpon = "frmTaAttendanceFormula.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaAttendanceLock .cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaAttendanceLock .resx"
+                    DependentUpon = "frmTaAttendanceLock .cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaCalAnnualLeave.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaCalAnnualLeave.resx"
+                    DependentUpon = "frmTaCalAnnualLeave.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaCalAnnualLeaveMonth.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaCalAnnualLeaveMonth.resx"
+                    DependentUpon = "frmTaCalAnnualLeaveMonth.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaCardData.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaCardData.resx"
+                    DependentUpon = "frmTaCardData.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaCardDataSwitch.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaCardDataSwitch.resx"
+                    DependentUpon = "frmTaCardDataSwitch.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaCardDataSwitchVS.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaCardDataSwitchVS.resx"
+                    DependentUpon = "frmTaCardDataSwitchVS.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaCopyShift.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaCopyShift.resx"
+                    DependentUpon = "frmTaCopyShift.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaDailyAttendanceList.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaDailyAttendanceList.resx"
+                    DependentUpon = "frmTaDailyAttendanceList.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaDailyMeal.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaDailyMeal.resx"
+                    DependentUpon = "frmTaDailyMeal.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaGetDataFrDT.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaGetDataFrDT.resx"
+                    DependentUpon = "frmTaGetDataFrDT.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaInitATT.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaInitATT.resx"
+                    DependentUpon = "frmTaInitATT.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaInitMonthAddUp.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaInitMonthAddUp.resx"
+                    DependentUpon = "frmTaInitMonthAddUp.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaInitSalary.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaInitSalary.resx"
+                    DependentUpon = "frmTaInitSalary.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaInputData.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaInputData.resx"
+                    DependentUpon = "frmTaInputData.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaLeaveManager.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaLeaveManager.resx"
+                    DependentUpon = "frmTaLeaveManager.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaMaternity.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaMaternity.resx"
+                    DependentUpon = "frmTaMaternity.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaMealCalculate.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaMealCalculate.resx"
+                    DependentUpon = "frmTaMealCalculate.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaMealFormula.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaMealFormula.resx"
+                    DependentUpon = "frmTaMealFormula.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaMonthAddUp.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaMonthAddUp.resx"
+                    DependentUpon = "frmTaMonthAddUp.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaMonthAddUpCal.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaMonthAddUpCal.resx"
+                    DependentUpon = "frmTaMonthAddUpCal.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaMonthSetup.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaMonthSetup.resx"
+                    DependentUpon = "frmTaMonthSetup.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaNatureSwitch.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaNatureSwitch.resx"
+                    DependentUpon = "frmTaNatureSwitch.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaOutTripControl.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaOutTripControl.resx"
+                    DependentUpon = "frmTaOutTripControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaQuick.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaQuick.resx"
+                    DependentUpon = "frmTaQuick.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaQuickChangeShift.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaQuickChangeShift.resx"
+                    DependentUpon = "frmTaQuickChangeShift.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaRosters.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaRosters.resx"
+                    DependentUpon = "frmTaRosters.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaRound.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaRound.resx"
+                    DependentUpon = "frmTaRound.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaSea.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaSea.resx"
+                    DependentUpon = "frmTaSea.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaSea2.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaSea2.resx"
+                    DependentUpon = "frmTaSea2.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaShiftReset.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaShiftReset.resx"
+                    DependentUpon = "frmTaShiftReset.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaTransferFromTXT.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaTransferFromTXT.resx"
+                    DependentUpon = "frmTaTransferFromTXT.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaTransferFromTXTSC.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaTransferFromTXTSC.resx"
+                    DependentUpon = "frmTaTransferFromTXTSC.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaTransferNextYear.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaTransferNextYear.resx"
+                    DependentUpon = "frmTaTransferNextYear.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaTransferNextYearMonth.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaTransferNextYearMonth.resx"
+                    DependentUpon = "frmTaTransferNextYearMonth.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaTypeShift.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaTypeShift.resx"
+                    DependentUpon = "frmTaTypeShift.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Attendance\frmTaVacate.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attendance\frmTaVacate.resx"
+                    DependentUpon = "frmTaVacate.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Backup\frmTaBackup.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Backup\frmTaBackup.resx"
+                    DependentUpon = "frmTaBackup.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Backup\frmTaRestore.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Backup\frmTaRestore.resx"
+                    DependentUpon = "frmTaRestore.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CardComparison\frmTaCardComparison.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CardComparison\frmTaCardComparison.resx"
+                    DependentUpon = "frmTaCardComparison.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CardComparison\frmTaComparsion.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CardComparison\frmTaComparsion.resx"
+                    DependentUpon = "frmTaComparsion.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CardComparison\frmTaSeachReport.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CardComparison\frmTaSeachReport.resx"
+                    DependentUpon = "frmTaSeachReport.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaBonusAndFined.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaBonusAndFined.resx"
+                    DependentUpon = "frmTaBonusAndFined.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaCardReader.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaCardReader.resx"
+                    DependentUpon = "frmTaCardReader.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaCertificate.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaCertificate.resx"
+                    DependentUpon = "frmTaCertificate.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaCity.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaCity.resx"
+                    DependentUpon = "frmTaCity.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaCompany.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaCompany.resx"
+                    DependentUpon = "frmTaCompany.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaDepartment.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaDepartment.resx"
+                    DependentUpon = "frmTaDepartment.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaDT6000.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaDT6000.resx"
+                    DependentUpon = "frmTaDT6000.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaEducation.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaEducation.resx"
+                    DependentUpon = "frmTaEducation.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaGraduation.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaGraduation.resx"
+                    DependentUpon = "frmTaGraduation.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaGroup.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaGroup.resx"
+                    DependentUpon = "frmTaGroup.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaGroupType.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaGroupType.resx"
+                    DependentUpon = "frmTaGroupType.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaHoliday.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaHoliday.resx"
+                    DependentUpon = "frmTaHoliday.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaJuryType.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaJuryType.resx"
+                    DependentUpon = "frmTaJuryType.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaLeave.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaLeave.resx"
+                    DependentUpon = "frmTaLeave.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaLevel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaLevel.resx"
+                    DependentUpon = "frmTaLevel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaMeal.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaMeal.resx"
+                    DependentUpon = "frmTaMeal.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaNationality.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaNationality.resx"
+                    DependentUpon = "frmTaNationality.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaNationality_Toilet.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaNationality_Toilet.resx"
+                    DependentUpon = "frmTaNationality_Toilet.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaNativePlace.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaNativePlace.resx"
+                    DependentUpon = "frmTaNativePlace.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaPosition.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaPosition.resx"
+                    DependentUpon = "frmTaPosition.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaProfession.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaProfession.resx"
+                    DependentUpon = "frmTaProfession.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaRace.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaRace.resx"
+                    DependentUpon = "frmTaRace.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaSetting.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaSetting.resx"
+                    DependentUpon = "frmTaSetting.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaVacateWay.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaVacateWay.resx"
+                    DependentUpon = "frmTaVacateWay.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Database\frmTaViewNatureSwitching.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database\frmTaViewNatureSwitching.resx"
+                    DependentUpon = "frmTaViewNatureSwitching.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Function\Common.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Function\FormatExcel.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Function\ImageFunction.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Function\LIC.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Function\PublicFunction.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Function\ReportExcel.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Function\ReportExcel2.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Function\ReportWord.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Function\T_String.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Function\TaAttendance.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Function\TaCardData.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Function\TaHelp.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Function\TextBoxAndVS.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GPS\frmTaAddfor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GPS\frmTaAddfor.resx"
+                    DependentUpon = "frmTaAddfor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GPS\frmTaLichTrinhBoPhan.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GPS\frmTaLichTrinhBoPhan.resx"
+                    DependentUpon = "frmTaLichTrinhBoPhan.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GPS\frmTaSchedule.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GPS\frmTaSchedule.resx"
+                    DependentUpon = "frmTaSchedule.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GPS\frmTaTransferToGPS.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GPS\frmTaTransferToGPS.resx"
+                    DependentUpon = "frmTaTransferToGPS.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\Form1.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\Form1.resx"
+                    DependentUpon = "Form1.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaAddColPayroll.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaAddColPayroll.resx"
+                    DependentUpon = "frmTaAddColPayroll.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaAddNote.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaAddNote.resx"
+                    DependentUpon = "frmTaAddNote.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaBonusAndFinedManager.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaBonusAndFinedManager.resx"
+                    DependentUpon = "frmTaBonusAndFinedManager.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaExcel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaExcel.resx"
+                    DependentUpon = "frmTaExcel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaExceldlg.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaExceldlg.resx"
+                    DependentUpon = "frmTaExceldlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaMonthSubsidy.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaMonthSubsidy.resx"
+                    DependentUpon = "frmTaMonthSubsidy.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaNotesSlip.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaNotesSlip.resx"
+                    DependentUpon = "frmTaNotesSlip.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaNotesSlipCal.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaNotesSlipCal.resx"
+                    DependentUpon = "frmTaNotesSlipCal.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaPayItem.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaPayItem.resx"
+                    DependentUpon = "frmTaPayItem.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaPayrollCal.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaPayrollCal.resx"
+                    DependentUpon = "frmTaPayrollCal.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaPieceRateInput.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaPieceRateInput.resx"
+                    DependentUpon = "frmTaPieceRateInput.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaPieceRateTransferTXT.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaPieceRateTransferTXT.resx"
+                    DependentUpon = "frmTaPieceRateTransferTXT.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaQuickChangeSalary.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaQuickChangeSalary.resx"
+                    DependentUpon = "frmTaQuickChangeSalary.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaQuickInput.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaQuickInput.resx"
+                    DependentUpon = "frmTaQuickInput.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaRound.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaRound.resx"
+                    DependentUpon = "frmTaRound.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaSalary.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaSalary.resx"
+                    DependentUpon = "frmTaSalary.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaSalaryFormula.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaSalaryFormula.resx"
+                    DependentUpon = "frmTaSalaryFormula.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaSalaryInput.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaSalaryInput.resx"
+                    DependentUpon = "frmTaSalaryInput.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaSalaryLevel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaSalaryLevel.resx"
+                    DependentUpon = "frmTaSalaryLevel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaSaveExcel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaSaveExcel.resx"
+                    DependentUpon = "frmTaSaveExcel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaStaffSalary.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaStaffSalary.resx"
+                    DependentUpon = "frmTaStaffSalary.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaSubsidyCal.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaSubsidyCal.resx"
+                    DependentUpon = "frmTaSubsidyCal.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaSussidy.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaSussidy.resx"
+                    DependentUpon = "frmTaSussidy.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaTransferSalary.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaTransferSalary.resx"
+                    DependentUpon = "frmTaTransferSalary.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaTransferStaff.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaTransferStaff.resx"
+                    DependentUpon = "frmTaTransferStaff.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Payroll\frmTaTXT.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Payroll\frmTaTXT.resx"
+                    DependentUpon = "frmTaTXT.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaATM.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaATM.resx"
+                    DependentUpon = "frmTaATM.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaChangeCard.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaChangeCard.resx"
+                    DependentUpon = "frmTaChangeCard.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaDepartmentSwitch.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaDepartmentSwitch.resx"
+                    DependentUpon = "frmTaDepartmentSwitch.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaEducationRecords.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaEducationRecords.resx"
+                    DependentUpon = "frmTaEducationRecords.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaFamily.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaFamily.resx"
+                    DependentUpon = "frmTaFamily.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaGraduationHistory.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaGraduationHistory.resx"
+                    DependentUpon = "frmTaGraduationHistory.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaPositionMobilize.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaPositionMobilize.resx"
+                    DependentUpon = "frmTaPositionMobilize.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaQuickUploadImage.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaQuickUploadImage.resx"
+                    DependentUpon = "frmTaQuickUploadImage.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaRecycleBin.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaRecycleBin.resx"
+                    DependentUpon = "frmTaRecycleBin.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaStaffInfo.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaStaffInfo.resx"
+                    DependentUpon = "frmTaStaffInfo.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaStaffInfoSearch.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaStaffInfoSearch.resx"
+                    DependentUpon = "frmTaStaffInfoSearch.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaVacateManager.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaVacateManager.resx"
+                    DependentUpon = "frmTaVacateManager.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaVisaPassport.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaVisaPassport.resx"
+                    DependentUpon = "frmTaVisaPassport.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaWorkAgain.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaWorkAgain.resx"
+                    DependentUpon = "frmTaWorkAgain.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTaXetHach.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTaXetHach.resx"
+                    DependentUpon = "frmTaXetHach.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\frmTuProStaffInfo.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\frmTuProStaffInfo.resx"
+                    DependentUpon = "frmTuProStaffInfo.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\FormRPT\frmTaPrintWID.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Personnel\FormRPT\frmTaPrintWID.resx"
+                    DependentUpon = "frmTaPrintWID.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Personnel\Report\ReportFromVS.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Product\frmTaSection.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Product\frmTaSection.resx"
+                    DependentUpon = "frmTaSection.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Product\frmTaStyle.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Product\frmTaStyle.resx"
+                    DependentUpon = "frmTaStyle.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Report\fvn_Test01.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\Rehong_ATM.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\Rehong_ATMNV.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\Rehong_BangLuongNgay.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\Rehong_BangLuongNgayNV.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\Rehong_DanhSachTangCa.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\Rehong_TangCaVuot.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\Rehong_TangCaVuotNV.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\Rehong_TheNhanVien.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\Rehong_TheNhanVienNV.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\Rehong_ThongKeLuong.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\Rehong_ThongKeLuongNV.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\Rehong_TienMat.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Report\Rehong_TienMatNV.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\frmPrintCard.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\frmPrintCard.resx"
+                    DependentUpon = "frmPrintCard.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\frmTaACCReport .cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\frmTaACCReport .resx"
+                    DependentUpon = "frmTaACCReport .cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\frmTaAnnexLabourContract.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\frmTaAnnexLabourContract.resx"
+                    DependentUpon = "frmTaAnnexLabourContract.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\frmTaHRReport.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\frmTaHRReport.resx"
+                    DependentUpon = "frmTaHRReport.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\frmTaLabourContract.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\frmTaLabourContract.resx"
+                    DependentUpon = "frmTaLabourContract.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\frmTaLB.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\frmTaLB.resx"
+                    DependentUpon = "frmTaLB.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\frmTaLB1.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\frmTaLB1.resx"
+                    DependentUpon = "frmTaLB1.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\frmTaManagerReport.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\frmTaManagerReport.resx"
+                    DependentUpon = "frmTaManagerReport.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\frmTaShowAnnexLabour.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\frmTaShowAnnexLabour.resx"
+                    DependentUpon = "frmTaShowAnnexLabour.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\frmTaShowLabour.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\frmTaShowLabour.resx"
+                    DependentUpon = "frmTaShowLabour.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\frmTaTAPrintOut.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\frmTaTAPrintOut.resx"
+                    DependentUpon = "frmTaTAPrintOut.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmChangePassword.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmChangePassword.resx"
+                    DependentUpon = "frmChangePassword.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmControlStateUser.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmControlStateUser.resx"
+                    DependentUpon = "frmControlStateUser.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmControlTable.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmControlTable.resx"
+                    DependentUpon = "frmControlTable.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmControlTable1.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmControlTable1.resx"
+                    DependentUpon = "frmControlTable1.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmLabel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmLabel.resx"
+                    DependentUpon = "frmLabel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmLogin.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmLogin.resx"
+                    DependentUpon = "frmLogin.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmMDI.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmMDI.resx"
+                    DependentUpon = "frmMDI.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmSearch.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmSearch.resx"
+                    DependentUpon = "frmSearch.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmSearch1.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmSearch1.resx"
+                    DependentUpon = "frmSearch1.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmSearch2.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmSearch2.resx"
+                    DependentUpon = "frmSearch2.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmSearch3.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmSearch3.resx"
+                    DependentUpon = "frmSearch3.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmSearch4.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmSearch4.resx"
+                    DependentUpon = "frmSearch4.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmSecurity.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmSecurity.resx"
+                    DependentUpon = "frmSecurity.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmSYS_System.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmSYS_System.resx"
+                    DependentUpon = "frmSYS_System.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmSysMenu.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmSysMenu.resx"
+                    DependentUpon = "frmSysMenu.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmTaLicence.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmTaLicence.resx"
+                    DependentUpon = "frmTaLicence.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmTaMultiSelect.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmTaMultiSelect.resx"
+                    DependentUpon = "frmTaMultiSelect.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmTaSecurityByDep.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmTaSecurityByDep.resx"
+                    DependentUpon = "frmTaSecurityByDep.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmTaSecurityByPos.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmTaSecurityByPos.resx"
+                    DependentUpon = "frmTaSecurityByPos.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmTaTransfer.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmTaTransfer.resx"
+                    DependentUpon = "frmTaTransfer.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmUser.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmUser.resx"
+                    DependentUpon = "frmUser.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\frmUserForWeb.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\frmUserForWeb.resx"
+                    DependentUpon = "frmUserForWeb.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SYSForm\MultiColumnDropDown.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SYSForm\MultiColumnDropDown.resx"
+                    DependentUpon = "MultiColumnDropDown.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControl\CrtTaCondition1.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControl\CrtTaCondition1.resx"
+                    DependentUpon = "CrtTaCondition1.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControl\CrtTaCondition2.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControl\CrtTaCondition2.resx"
+                    DependentUpon = "CrtTaCondition2.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControl\CrtTaDepartment.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControl\CrtTaDepartment.resx"
+                    DependentUpon = "CrtTaDepartment.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControl\frmChon.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControl\frmChon.resx"
+                    DependentUpon = "frmChon.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControl\frmTaNonSeq.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControl\frmTaNonSeq.resx"
+                    DependentUpon = "frmTaNonSeq.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+        <StartupServices>
+            <Service ID = "{CF845C55-C321-4742-B673-E6212D061ED9}" />
+        </StartupServices>
+    </CSHARP>
+</VisualStudioProject>
+

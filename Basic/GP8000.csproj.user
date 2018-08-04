@@ -1,0 +1,48 @@
+<VisualStudioProject>
+    <CSHARP LastOpenVersion = "7.10.3077" >
+        <Build>
+            <Settings ReferencePath = "E:\GGM2007\Code\Basic\OCX\;E:\GGM2007\Code\Basic\bin\Debug\;E:\GGM3000 C#\GGM3000\Basic\bin\debug\;E:\GGM3000 C#\GGM3000_Code\Basic\bin\debug\;D:\Code\Basic\bin\debug\;F:\TUYEN\GPC\Code\Basic\bin\debug\;E:\Code on MINHTUYEN (10.0.0.15)\Basic\bin\debug\;E:\Code GP8000\Basic\bin\debug\;E:\TUYEN\GPC\Code\Basic\bin\debug\;E:\TUYEN\GPC\Code GPC\Basic\bin\debug\;D:\Code\TUYEN\GPC\Code GPC\Basic\bin\debug\;D:\Code\TUYEN\GPC\Code GPC20110826\Basic\bin\debug\;D:\Code VT\Code GPC\Basic\bin\debug\;D:\REHONG\Code GPC\Basic\bin\debug\;D:\REHONG\REHONG\Code GPC\Basic\bin\debug\;E:\REHONG\Sheicovn\TienQiang ban built\TienQiang ban built\Code GPC\Basic\bin\debug\;D:\Dataquantrong\DataoD\Dropbox\Anh Kien\REHONG\Code GPC\Basic\bin\debug\;D:\Cloud\Works\KhachHang\REHONG\Code GPC\Basic\bin\debug\;C:\Users\khuenguyen\Desktop\REHONG_201511231021\REHONG\Code GPC\Basic\bin\debug\;D:\Souce Code\REHONG\Code GPC\Basic\bin\debug\;D:\Souce Code\REHONG\GP\Code GPC\Basic\bin\debug\;F:\trung\sources\winform\Khanh_Ban_giao\REHONG\REHONG\REHONG\GP\Code GPC\Basic\bin\debug\" >
+                <Config
+                    Name = "Debug"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "true"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                />
+                <Config
+                    Name = "Release"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "false"
+                />
+            </Settings>
+        </Build>
+        <OtherProjectSettings
+            CopyProjectDestinationFolder = ""
+            CopyProjectUncPath = ""
+            CopyProjectOption = "0"
+            ProjectView = "ProjectFiles"
+            ProjectTrust = "0"
+        />
+    </CSHARP>
+</VisualStudioProject>
+

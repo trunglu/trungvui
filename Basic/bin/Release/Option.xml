@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Config>
+<MRK_YD>1</MRK_YD><!--Yard =1 ,Yard & inch = 2-->
+<SL_TA>1</SL_TA><!--neu so luong tinh theo ta =1 ,ko theo ta = 2-->
+<RP>1</RP><!--them 1 ngon ngu cho report VN,EN,CN, 1 ko chon-->
+</Config> 
